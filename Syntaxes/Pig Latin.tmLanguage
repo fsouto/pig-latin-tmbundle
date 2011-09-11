@@ -38,9 +38,15 @@
             </dict>
             <dict>
                 <key>match</key>
-                <string>\b(FLATTEN|AVG|CONCAT|COUNT|DIFF|MAX|MIN|SIZE|SUM|TOKENIZE|IsEmpty|PigStorage|BinStorage|BinaryStorage|TextLoader|PigDump)\b</string>
+                <string>\b(FLATTEN|AVG|CONCAT|COUNT|COUNT_STAR|DIFF|MAX|MIN|SIZE|SUM|TOKENIZE|IsEmpty|PigStorage|BinStorage|BinaryStorage|TextLoader|PigDump)\b</string>
                 <key>name</key>
-                <string>entity.function.pig</string>
+                <string>entity.name.function.pig</string>
+            </dict>
+            <dict>
+                <key>match</key>
+                <string>\b(INDEXOF|LAST_INDEX_OF|LCFIRST|LOWER|REGEX_EXTRACT|REGEX_EXTRACT_ALL|REPLACE|STRSPLIT|SUBSTRING|TRIM|UCFIRST|UPPER)\b</string>
+                <key>name</key>
+                <string>entity.name.function.string.pig</string>
             </dict>
             <dict>
                 <key>match</key>
