@@ -61,6 +61,12 @@
                 <string>keyword.operator.arithmetic.pig</string>
             </dict>
             <dict>
+                <key>match</key>
+                <string>\b(ABS|ACOS|ASIN|ATAN|CBRT|CEIL|COS|COSH|EXP|FLOOR|LOG|LOG10|RANDOM|ROUND|SIN|SINH|SQRT|TAN|TANH)\b</string>
+                <key>name</key>
+                <string>keyword.operator.math.pig</string>
+            </dict>
+            <dict>
                 <key>begin</key>
                 <string>"</string>
                 <key>end</key>
